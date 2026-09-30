@@ -1,4 +1,4 @@
-import cv2
+```import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -51,3 +51,4 @@ if results[0].masks is not None:
     plt.title("Máscara Binária da Pluma (Pronta para Análise de Área/Forma)")
     plt.axis("off")
     plt.show()
+```
